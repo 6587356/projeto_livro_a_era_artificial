@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Tahoma', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+
+.secao {
+   
+    padding: 50px;
+    margin: auto;
+    height: 600px;
+    width:  1000px;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.box-titulo {
+   
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    
+
+}
+
+
+.titulo-principal {
+    font-size: 32px;
+
+    
+}
+
+.box-capa {
+   
+    margin: auto;
+    margin-top: 15px;
+  
+}
+
+.capa {
+    width: 190px;
+    margin: auto;
+    display: block;
+}
+
+.box-subtitulo {
+   
+    margin-top: 15px;
+    text-align: center;
+}
+
+.box-subtitulo h2 {
+    font-size: 24px;
+    
+}
+
+.box-paragrafo  {
+   
+    text-align: center ;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-paragrafo p {
+    width: 930px;
+    font-size: 16px;
+}
+
+.box-link-comprar {
+   
+    margin: auto;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.box-link-comprar a {
+    display: block;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #49B970;
+    width: 100px;
+    height: 30px;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.secao2 {
+    border: 1px solid red;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+.box-subtitulo h3 {
+    font-size: 18px;
+}
+
+.altura-secao2 {
+    height: 150px;
+}
+
+.altura-secao3 {
+    height: 400px;
+}
